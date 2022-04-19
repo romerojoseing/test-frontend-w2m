@@ -1,0 +1,23 @@
+<!-- ---------- Title section form ---------- -->
+<h2 *ngIf="!this.id" class="title-form">Completa el formulario para crear un nuevo Superheroe</h2>
+
+<h2 *ngIf="this.id" class="title-form">Modifica la información el Superheroe</h2>
+
+<!-- ---------- Form Heroes - Create/Edit ---------- -->
+<form [formGroup]="formHero">
+  <mat-form-field appearance="fill">
+    <mat-label>Nombre de Superheroe</mat-label>
+    <input matInput autocomplete="off" formControlName="superhero"  oninput="this.value = this.value.toUpperCase()">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Nombre Real</mat-label>
+    <input matInput autocomplete="off" formControlName="name">
+  </mat-form-field>
+
+  <!-- ---------- Create Hero ---------- -->
+  <button *ngIf="!this.id" mat-raised-button color="primary" type="button" [disabled]="this.formHero.invalid" (click)="createHero(formHero.value)">Crear Heroe</button>
+
+  <!-- ---------- Edit Hero ---------- -->
+  <button *ngIf="this.id" mat-raised-button color="primary" type="button" [disabled]="this.formHero.invalid" (click)="updateHero(formHero.value)">Actualizar Heroe</button>
+</form>

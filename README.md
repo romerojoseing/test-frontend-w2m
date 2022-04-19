@@ -1,27 +1,63 @@
-# TestFrontendW2m
+# Test Frontend W2M
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
+_This is a challenge from testing, using Angular and Typescript, a SPA application that allows super hero maintenance._
 
-## Development server
+## [Try the live demo](https://romerojoseing.github.io/test-frontend-w2m/) ⚡
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<br>
 
-## Code scaffolding
+## Getting Started 🚀
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system._
 
-## Build
+See **Requirements** to know the minimum standards to use the project.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Requirements 📋
 
-## Running unit tests
+_You need to have the following technologies installed to use this project._
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Any browser to open the project.
 
-## Running end-to-end tests
+* [Node.js - npm](https://nodejs.org/es/) - *JavaScript runtime - used versions Node: 16.13.0 / NPM: 8.10.0*
+* [Angular CLI](https://angular.io/cli) - *TypeScript framework - used version Angular CLI: 13.3.2*
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+### Installing 🔧
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+_To use this project you will need to clone this repository or download it to your computer. If you choose to download it directly in the upper right part of the repository you will have the option, if it is not your case you can clone it using the following command._
+
+```ssh
+  $ git clone https://github.com/romerojoseing/test-frontend-w2m.git
+```
+
+<br>
+
+## Use Project 👓
+
+_Follow this steps to run the project, install dependencies necessaries._
+
+```ssh
+  $ cd test-frontend-w2m
+```
+
+```ssh
+  $ npm install
+```
+
+```ssh
+  $ ng serve
+```
+
+_Open the browser at the following link: [http://localhost:4200](http://localhost:4200)_
+
+<br>
+
+## Built With 🛠️
+
+_Technologies used in the project:_
+
+* [HTML](https://es.wikipedia.org/wiki/HTML) - Layout and web structure.
+* [Sass](https://sass-lang.com/) - Cascading style sheet language.
+* [TypeScript](https://www.typescriptlang.org/) - Strongly typed programming language.
+* [Angular](https://angular.io//) - TypeScript framework.
+* [Angular Material](https://material.angular.io/) - User Interface (UI).

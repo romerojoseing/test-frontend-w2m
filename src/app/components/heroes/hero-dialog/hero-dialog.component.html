@@ -1,0 +1,12 @@
+<!-- ---------- Delete hero dialog ---------- -->
+<div mat-dialog-content>
+  <h2>{{message}}</h2>
+</div>
+<div mat-dialog-actions class="center">
+
+  <!-- ---------- Cancel delete hero ---------- -->
+  <button mat-raised-button (click)="cancelDelete()">No</button>
+
+  <!-- ---------- Acept delete hero ---------- -->
+  <button mat-raised-button color="primary" [mat-dialog-close]="true">Si</button>
+</div>
