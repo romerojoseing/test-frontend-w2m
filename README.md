@@ -2,8 +2,6 @@
 
 _This is a challenge from testing, using Angular and Typescript, a SPA application that allows super hero maintenance._
 
-## [Try the live demo](https://romerojoseing.github.io/test-frontend-w2m/) ⚡
-
 <br>
 
 ## Getting Started 🚀
@@ -20,6 +18,7 @@ Any browser to open the project.
 
 * [Node.js - npm](https://nodejs.org/es/) - *JavaScript runtime - used versions Node: 16.13.0 / NPM: 8.10.0*
 * [Angular CLI](https://angular.io/cli) - *TypeScript framework - used version Angular CLI: 13.3.2*
+* [Docker](https://www.docker.com/) - *Automates application deployment within software containers*
 
 
 ### Installing 🔧
@@ -49,6 +48,22 @@ _Follow this steps to run the project, install dependencies necessaries._
 ```
 
 _Open the browser at the following link: [http://localhost:4200](http://localhost:4200)_
+
+<br>
+
+## Docker Image
+
+_Follow this steps to run the docker image project_
+
+```ssh
+  $ docker build -t test-frontend-w2m .
+```
+
+```ssh
+  $ docker run -d -it -p 80:80 test-frontend-w2m
+```
+
+_Open the browser at the following link: [http://localhost:80](http://localhost:80)_
 
 <br>
 
