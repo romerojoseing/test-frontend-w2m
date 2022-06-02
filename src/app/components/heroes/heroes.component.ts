@@ -64,8 +64,6 @@ export class HeroesComponent implements OnInit {
   loadHeroes(){
     this.heroes = this.heroService.getAll();
     this.dataSource = new MatTableDataSource(this.heroes);
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
   }
 
   /**
